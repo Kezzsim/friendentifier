@@ -3,7 +3,7 @@ body {
 }
 
 .img-bkground {
-  background: url(/img/background.jpg) no-repeat center fixed;
+  background: url(img/background.jpg) no-repeat center fixed;
   position: absolute;
   height: 100%;
   width: 100%;
