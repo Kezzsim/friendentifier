@@ -1,0 +1,52 @@
+body {
+	background: none;
+}
+
+.img-bkground {
+  background: url(/img/background.jpg) no-repeat center fixed;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter: blur(10px);
+  filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='10');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -2;
+}
+
+.title-Text {
+  background: none;
+}
+
+h1 {
+  letter-spacing: 3px;
+  font-family: 'Sunshiney', cursive;
+  text-align: center;
+}
+
+.iconBtn {
+  width:10%;
+}
+
+h3, p {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.titleSize {
+  width: 95%;
+}
+
+.explanation {
+  .border-radius( 9px );
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.container-fluid {
+  max-width: 1000px;
+}
